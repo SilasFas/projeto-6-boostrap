@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bootstrap Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-flex">
+        <div class="container">
+            <h1>My favorite languages</h1>
+        </div>
+    </header>
+
+    <div class="carousel slide" data-bs-ride="carousel" id="change-image">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="images/usa-flag.jpg" alt="american flag">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/brazilian-flag.png" alt="brazilian flag">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/french-flag.png" alt="french flag">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/korean-flag.png" alt="korean flag">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#change-image" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#change-image" data-bs-slide="next">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#change-image" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#change-image" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#change-image" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#change-image" data-bs-slide-to="3"></button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
