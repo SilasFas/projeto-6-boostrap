@@ -15,41 +15,54 @@
             <h1>My favorite languages</h1>
         </div>
     </header>
-
-    <div class="carousel slide" data-bs-ride="carousel" id="change-image">
-
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
-                <img src="images/usa-flag.jpg" alt="american flag">
-            </div>
-            <div class="carousel-item" data-bs-interval="1000">
-                <img src="images/brazilian-flag.png" alt="brazilian flag">
-            </div>
-            <div class="carousel-item" data-bs-interval="1000">
-                <img src="images/french-flag.png" alt="french flag">
-            </div>
-            <div class="carousel-item" data-bs-interval="1000">
-                <img src="images/korean-flag.png" alt="korean flag">
+    <main>
+        <div class="container">
+            <div class="carousel slide" data-bs-ride="carousel" id="change-image">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/usa-flag.jpg" alt="american flag">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>American Flag</h5>
+                            <p>The spoken language in The US is English.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/brazilian-flag.png" alt="brazilian flag">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Brazilian Flag</h5>
+                            <p>The spoken language in Brazil is Portuguese.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/french-flag.png" alt="french flag">
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5>French Flag</h5>
+                            <p>The spoken language in Frence is French.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/korean-flag.png" alt="korean flag">
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5>korean Flag</h5>
+                            <p>The spoken language in Korea is Korean.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#change-image" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#change-image" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#change-image" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#change-image" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#change-image" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#change-image" data-bs-slide-to="3"></button>
+                </div>
             </div>
         </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#change-image" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-
-        <button class="carousel-control-next" type="button" data-bs-target="#change-image" data-bs-slide="next">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-
-
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#change-image" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#change-image" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#change-image" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#change-image" data-bs-slide-to="3"></button>
-        </div>
-    </div>
-
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
