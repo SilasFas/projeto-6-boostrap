@@ -61,8 +61,27 @@ p {
     margin-top: 0 !important;
 }
 
-.carousel{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.max-width-img {
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .max-width-img {
+        max-width: 75%;
+        /* Ou ajuste conforme necessário */
+    }
+}
+
+@media (min-width: 992px) {
+    .max-width-img {
+        max-width: 50%;
+        /* Ou ajuste conforme necessário */
+    }
+}
+
+@media (min-width: 1200px) {
+    .max-width-img {
+        max-width: 40%;
+        /* Ou ajuste conforme necessário */
+    }
 }
