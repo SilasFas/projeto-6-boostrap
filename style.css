@@ -8,18 +8,30 @@
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100vh !important;
+    width: 100vw !important;
+    background-color: #FEF6C9;
 }
 
 header {
-    background-color: black;
-    height: 10%;
+    background-color: #D4DFC7;
+    height: 120px;
     width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+main {
+    margin-top: 25px;
 }
 
 h1 {
-    color: white;
+    color: #FA824C;
+    text-align: center;
+    font-size: auto;
+    margin-bottom: 0;
+    font-weight: bolder;
 }
 
 .container-flex {
@@ -27,7 +39,30 @@ h1 {
     align-items: center;
 }
 
-img{
+img {
     width: 100%;
-    height: 500px;
+    height: 250px;
+}
+
+p {
+    font-size: larger;
+    text-align: justify;
+    margin-top: 12px;
+    color: #0F7173;
+}
+
+.card {
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+.custom-container {
+    margin-top: 0 !important;
+}
+
+.carousel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
